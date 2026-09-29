@@ -1,0 +1,20 @@
+# LLM and orchestration
+langchain-core
+langchain-groq
+langgraph
+
+# MCP SDK (official Model Context Protocol)
+mcp
+
+# Web scraping and HTTP
+httpx
+beautifulsoup4
+lxml
+tavily-python
+
+# Data validation
+pydantic
+
+# Environment management
+python-dotenv
+

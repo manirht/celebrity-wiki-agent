@@ -1,0 +1,23 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Logs and generated output
+logs/
+outputs/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Misc local artifacts
+*.pdf
+*.zip
