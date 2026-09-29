@@ -1,0 +1,95 @@
+{
+  "name": "Taylor Swift",
+  "domain": "Music",
+  "birthplace": {
+    "text": "Taylor Swift was born in Pennsylvania, USA. She spent her early years in Wyomissing, Pennsylvania, where she lived in a five-bedroom house until 2004. Her family later moved to Nashville to support her music career.",
+    "citation_ids": [
+      "src2",
+      "src3"
+    ]
+  },
+  "introduction": {
+    "text": "Happy 36th Birthday Taylor Swift",
+    "citation_ids": [
+      "src1"
+    ]
+  },
+  "achievements": [
+    {
+      "text": "Taylor Swift is a globally renowned singer-songwriter known for her songwriting and storytelling abilities. She has won numerous awards, including multiple Grammy Awards, and has sold millions of records worldwide.",
+      "citation_ids": []
+    },
+    {
+      "text": "She has released several critically acclaimed albums, including 'Fearless,' 'Red,' '1989,' and 'Midnights,' which have topped charts in multiple countries.",
+      "citation_ids": []
+    }
+  ],
+  "weather_summary": {
+    "text": "No city provided for weather information.",
+    "citation_ids": []
+  },
+  "sightseeing": [
+    {
+      "text": "Take a look inside Taylor Swift's childhood home in Pennsylvania, a five-bedroom house worth $800,000. The house is described as a \"one-of-a-kind Georgian Colonial home\" and is a popular site for fans.",
+      "citation_ids": [
+        "src2"
+      ]
+    },
+    {
+      "text": "Explore Taylor Swift's Nashville: 10 things all Swifties should see and do, including her favorite reading spots and the small stage where she was discovered.",
+      "citation_ids": [
+        "src4"
+      ]
+    },
+    {
+      "text": "Watch a YouTube video tour of Taylor Swift's childhood homes in Cumru Township and Wyomissing, Pennsylvania, as well as her preschool, elementary school, and high school.",
+      "citation_ids": [
+        "src3"
+      ]
+    },
+    {
+      "text": "Taylor Swift returned to her hometown of Reading, Pennsylvania, and shared a sweet photo of herself celebrating the occasion.",
+      "citation_ids": [
+        "src5"
+      ]
+    },
+    {
+      "text": "Explore the Ultimate Taylor Swift Guide to London, including Liberty London, the birthplace of her song 'Clean'.",
+      "citation_ids": [
+        "src6"
+      ]
+    }
+  ],
+  "citations": {
+    "src1": {
+      "id": "src1",
+      "url": "https://www.facebook.com/groups/197624643745929/posts/3356815034493525/",
+      "description": null
+    },
+    "src2": {
+      "id": "src2",
+      "url": "https://www.businessinsider.com/taylor-swift-childhood-home-pennsylvania-tour-photos-2022-3",
+      "description": null
+    },
+    "src3": {
+      "id": "src3",
+      "url": "https://www.youtube.com/watch?v=XSGv_WPbtr4",
+      "description": null
+    },
+    "src4": {
+      "id": "src4",
+      "url": "https://10best.usatoday.com/travel/taylor-swift-guide-to-nashville/",
+      "description": null
+    },
+    "src5": {
+      "id": "src5",
+      "url": "https://people.com/music/taylor-swift-returns-hometown-pennsylvania/",
+      "description": null
+    },
+    "src6": {
+      "id": "src6",
+      "url": "https://thesaucemag.com/taylor-swift-guide-to-london/",
+      "description": null
+    }
+  }
+}

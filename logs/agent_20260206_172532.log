@@ -1,0 +1,107 @@
+2026-02-06 17:25:32 | INFO     | celebrity_agent | Logging initialized. Log file: /Users/chennakesavulam/Documents/AI-7Day/Day-3/logs/agent_20260206_172532.log
+2026-02-06 17:25:32 | INFO     | celebrity_agent.main | Loaded configuration for model: qwen/qwen3-32b
+2026-02-06 17:25:32 | INFO     | celebrity_agent.main | Found 5 people in CSV
+2026-02-06 17:25:33 | INFO     | celebrity_agent.main | [1/5] Processing Cristiano Ronaldo (Sport)
+2026-02-06 17:25:33 | INFO     | celebrity_agent.graph | === Enriching: Cristiano Ronaldo (Sport) ===
+2026-02-06 17:25:33 | INFO     | celebrity_agent.graph | Searching web for: Cristiano Ronaldo biography Sport
+2026-02-06 17:25:35 | DEBUG    | celebrity_agent.graph | Got 5 search results
+2026-02-06 17:25:35 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.biography.com/athletes/cristiano-ronaldo
+2026-02-06 17:25:35 | WARNING  | celebrity_agent.graph | Page fetch error for https://www.biography.com/athletes/cristiano-ronaldo: Error fetching page: Client error '403 Forbidden' for url 'https://www.biography.com/athletes/cristiano-ronaldo'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:25:35 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.ebsco.com/research-starters/biography/cristiano-ronaldo
+2026-02-06 17:25:36 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.britannica.com/biography/Cristiano-Ronaldo
+2026-02-06 17:25:36 | INFO     | celebrity_agent.graph | Collected 2 source pages
+2026-02-06 17:25:36 | INFO     | celebrity_agent.graph | LLM call: Extracting facts for Cristiano Ronaldo
+2026-02-06 17:25:37 | DEBUG    | celebrity_agent.graph | LLM raw response length: 903 chars
+2026-02-06 17:25:37 | INFO     | celebrity_agent.graph | Extracted facts - birth_city: Madeira, birth_country: Portugal
+2026-02-06 17:25:37 | INFO     | celebrity_agent.graph | Fetching weather for: Madeira, Portugal
+2026-02-06 17:25:38 | INFO     | celebrity_agent.graph | Weather: 16.6°C
+2026-02-06 17:25:42 | INFO     | celebrity_agent.graph | Writing outputs for: Cristiano Ronaldo
+2026-02-06 17:25:43 | DEBUG    | celebrity_agent.graph | Wrote JSON: outputs/structured/cristiano_ronaldo.json
+2026-02-06 17:25:43 | DEBUG    | celebrity_agent.graph | Wrote Markdown: outputs/reports/cristiano_ronaldo.md
+2026-02-06 17:25:43 | INFO     | celebrity_agent.graph | Outputs written: outputs/structured/cristiano_ronaldo.json, outputs/reports/cristiano_ronaldo.md
+2026-02-06 17:25:43 | INFO     | celebrity_agent.main | [1/5] Completed Cristiano Ronaldo
+2026-02-06 17:25:43 | INFO     | celebrity_agent.main | [2/5] Processing Taylor Swift (Music)
+2026-02-06 17:25:43 | INFO     | celebrity_agent.graph | === Enriching: Taylor Swift (Music) ===
+2026-02-06 17:25:43 | INFO     | celebrity_agent.graph | Searching web for: Taylor Swift biography Music
+2026-02-06 17:25:45 | DEBUG    | celebrity_agent.graph | Got 5 search results
+2026-02-06 17:25:45 | DEBUG    | celebrity_agent.graph | Fetching page: https://en.wikipedia.org/wiki/Taylor_Swift
+2026-02-06 17:25:46 | WARNING  | celebrity_agent.graph | Page fetch error for https://en.wikipedia.org/wiki/Taylor_Swift: Error fetching page: Client error '403 Forbidden' for url 'https://en.wikipedia.org/wiki/Taylor_Swift'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:25:46 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.facebook.com/groups/197624643745929/posts/3356815034493525/
+2026-02-06 17:25:47 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.billboard.com/artist/taylor-swift/
+2026-02-06 17:25:54 | WARNING  | celebrity_agent.graph | Page fetch error for https://www.billboard.com/artist/taylor-swift/: Error fetching page: 
+2026-02-06 17:25:54 | INFO     | celebrity_agent.graph | Collected 1 source pages
+2026-02-06 17:25:54 | INFO     | celebrity_agent.graph | LLM call: Extracting facts for Taylor Swift
+2026-02-06 17:25:54 | DEBUG    | celebrity_agent.graph | LLM raw response length: 314 chars
+2026-02-06 17:25:54 | INFO     | celebrity_agent.graph | Extracted facts - birth_city: , birth_country: 
+2026-02-06 17:25:54 | INFO     | celebrity_agent.graph | Fetching weather for: , 
+2026-02-06 17:25:54 | WARNING  | celebrity_agent.graph | Weather fetch failed: No city provided
+2026-02-06 17:25:57 | INFO     | celebrity_agent.graph | Writing outputs for: Taylor Swift
+2026-02-06 17:25:58 | DEBUG    | celebrity_agent.graph | Wrote JSON: outputs/structured/taylor_swift.json
+2026-02-06 17:25:58 | DEBUG    | celebrity_agent.graph | Wrote Markdown: outputs/reports/taylor_swift.md
+2026-02-06 17:25:58 | INFO     | celebrity_agent.graph | Outputs written: outputs/structured/taylor_swift.json, outputs/reports/taylor_swift.md
+2026-02-06 17:25:58 | INFO     | celebrity_agent.main | [2/5] Completed Taylor Swift
+2026-02-06 17:25:58 | INFO     | celebrity_agent.main | [3/5] Processing Elon Musk (Business)
+2026-02-06 17:25:58 | INFO     | celebrity_agent.graph | === Enriching: Elon Musk (Business) ===
+2026-02-06 17:25:58 | INFO     | celebrity_agent.graph | Searching web for: Elon Musk biography Business
+2026-02-06 17:26:01 | DEBUG    | celebrity_agent.graph | Got 5 search results
+2026-02-06 17:26:01 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.biography.com/business-leaders/elon-musk
+2026-02-06 17:26:01 | WARNING  | celebrity_agent.graph | Page fetch error for https://www.biography.com/business-leaders/elon-musk: Error fetching page: Client error '403 Forbidden' for url 'https://www.biography.com/business-leaders/elon-musk'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:26:01 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.linkedin.com/pulse/elon-musk-biography-life-story-serial-entrepreneur-wilson-luna-szszf
+2026-02-06 17:26:03 | DEBUG    | celebrity_agent.graph | Fetching page: https://en.wikipedia.org/wiki/Elon_Musk
+2026-02-06 17:26:03 | WARNING  | celebrity_agent.graph | Page fetch error for https://en.wikipedia.org/wiki/Elon_Musk: Error fetching page: Client error '403 Forbidden' for url 'https://en.wikipedia.org/wiki/Elon_Musk'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:26:03 | INFO     | celebrity_agent.graph | Collected 1 source pages
+2026-02-06 17:26:03 | INFO     | celebrity_agent.graph | LLM call: Extracting facts for Elon Musk
+2026-02-06 17:26:04 | DEBUG    | celebrity_agent.graph | LLM raw response length: 1318 chars
+2026-02-06 17:26:04 | INFO     | celebrity_agent.graph | Extracted facts - birth_city: Pretoria, birth_country: South Africa
+2026-02-06 17:26:04 | INFO     | celebrity_agent.graph | Fetching weather for: Pretoria, South Africa
+2026-02-06 17:26:05 | INFO     | celebrity_agent.graph | Weather: 31.7°C
+2026-02-06 17:26:09 | INFO     | celebrity_agent.graph | Writing outputs for: Elon Musk
+2026-02-06 17:26:10 | DEBUG    | celebrity_agent.graph | Wrote JSON: outputs/structured/elon_musk.json
+2026-02-06 17:26:10 | DEBUG    | celebrity_agent.graph | Wrote Markdown: outputs/reports/elon_musk.md
+2026-02-06 17:26:10 | INFO     | celebrity_agent.graph | Outputs written: outputs/structured/elon_musk.json, outputs/reports/elon_musk.md
+2026-02-06 17:26:10 | INFO     | celebrity_agent.main | [3/5] Completed Elon Musk
+2026-02-06 17:26:10 | INFO     | celebrity_agent.main | [4/5] Processing Albert Einstein (Science)
+2026-02-06 17:26:10 | INFO     | celebrity_agent.graph | === Enriching: Albert Einstein (Science) ===
+2026-02-06 17:26:10 | INFO     | celebrity_agent.graph | Searching web for: Albert Einstein biography Science
+2026-02-06 17:26:12 | DEBUG    | celebrity_agent.graph | Got 5 search results
+2026-02-06 17:26:12 | DEBUG    | celebrity_agent.graph | Fetching page: https://vromansbookstore.com/book/9783031740657
+2026-02-06 17:26:13 | WARNING  | celebrity_agent.graph | Page fetch error for https://vromansbookstore.com/book/9783031740657: Error fetching page: Client error '403 Forbidden' for url 'https://vromansbookstore.com/book/9783031740657'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:26:13 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.britannica.com/biography/Albert-Einstein
+2026-02-06 17:26:13 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+2026-02-06 17:26:14 | INFO     | celebrity_agent.graph | Collected 2 source pages
+2026-02-06 17:26:14 | INFO     | celebrity_agent.graph | LLM call: Extracting facts for Albert Einstein
+2026-02-06 17:26:15 | DEBUG    | celebrity_agent.graph | LLM raw response length: 903 chars
+2026-02-06 17:26:15 | INFO     | celebrity_agent.graph | Extracted facts - birth_city: Ulm, birth_country: Germany
+2026-02-06 17:26:15 | INFO     | celebrity_agent.graph | Fetching weather for: Ulm, Germany
+2026-02-06 17:26:16 | INFO     | celebrity_agent.graph | Weather: 5.2°C
+2026-02-06 17:26:29 | INFO     | celebrity_agent.graph | Writing outputs for: Albert Einstein
+2026-02-06 17:26:30 | DEBUG    | celebrity_agent.graph | Wrote JSON: outputs/structured/albert_einstein.json
+2026-02-06 17:26:30 | DEBUG    | celebrity_agent.graph | Wrote Markdown: outputs/reports/albert_einstein.md
+2026-02-06 17:26:30 | INFO     | celebrity_agent.graph | Outputs written: outputs/structured/albert_einstein.json, outputs/reports/albert_einstein.md
+2026-02-06 17:26:30 | INFO     | celebrity_agent.main | [4/5] Completed Albert Einstein
+2026-02-06 17:26:30 | INFO     | celebrity_agent.main | [5/5] Processing Tom Hanks (Movies)
+2026-02-06 17:26:30 | INFO     | celebrity_agent.graph | === Enriching: Tom Hanks (Movies) ===
+2026-02-06 17:26:30 | INFO     | celebrity_agent.graph | Searching web for: Tom Hanks biography Movies
+2026-02-06 17:26:36 | DEBUG    | celebrity_agent.graph | Got 5 search results
+2026-02-06 17:26:36 | DEBUG    | celebrity_agent.graph | Fetching page: https://en.wikipedia.org/wiki/Tom_Hanks
+2026-02-06 17:26:37 | WARNING  | celebrity_agent.graph | Page fetch error for https://en.wikipedia.org/wiki/Tom_Hanks: Error fetching page: Client error '403 Forbidden' for url 'https://en.wikipedia.org/wiki/Tom_Hanks'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:26:37 | DEBUG    | celebrity_agent.graph | Fetching page: https://play.google.com/store/apps/details?id=com.outfit7.mytalkingtomfriends&hl=en-US
+2026-02-06 17:26:38 | DEBUG    | celebrity_agent.graph | Fetching page: https://talkingtomandfriends.com/apps/my-talking-tom-2
+2026-02-06 17:26:38 | INFO     | celebrity_agent.graph | Collected 2 source pages
+2026-02-06 17:26:38 | INFO     | celebrity_agent.graph | LLM call: Extracting facts for Tom Hanks
+2026-02-06 17:26:39 | DEBUG    | celebrity_agent.graph | LLM raw response length: 152 chars
+2026-02-06 17:26:39 | INFO     | celebrity_agent.graph | Extracted facts - birth_city: , birth_country: 
+2026-02-06 17:26:39 | INFO     | celebrity_agent.graph | Fetching weather for: , 
+2026-02-06 17:26:39 | WARNING  | celebrity_agent.graph | Weather fetch failed: No city provided
+2026-02-06 17:26:50 | INFO     | celebrity_agent.graph | Writing outputs for: Tom Hanks
+2026-02-06 17:26:51 | DEBUG    | celebrity_agent.graph | Wrote JSON: outputs/structured/tom_hanks.json
+2026-02-06 17:26:51 | DEBUG    | celebrity_agent.graph | Wrote Markdown: outputs/reports/tom_hanks.md
+2026-02-06 17:26:51 | INFO     | celebrity_agent.graph | Outputs written: outputs/structured/tom_hanks.json, outputs/reports/tom_hanks.md
+2026-02-06 17:26:51 | INFO     | celebrity_agent.main | [5/5] Completed Tom Hanks
+2026-02-06 17:26:51 | INFO     | celebrity_agent.main | Pipeline completed

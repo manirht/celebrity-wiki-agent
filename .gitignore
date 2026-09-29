@@ -9,9 +9,6 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 
-# Logs and generated output
-logs/
-outputs/
 
 # IDE / OS
 .idea/

@@ -1,0 +1,110 @@
+{
+  "name": "Albert Einstein",
+  "domain": "Science",
+  "birthplace": {
+    "text": "Albert Einstein was born in Ulm, Germany.",
+    "citation_ids": [
+      "src1"
+    ]
+  },
+  "introduction": {
+    "text": "Albert Einstein was born on March 14, 1879, in Ulm, Germany.",
+    "citation_ids": [
+      "src1"
+    ]
+  },
+  "achievements": [
+    {
+      "text": "Einstein is best known for developing the theory of relativity and for his mass-energy equivalence formula E = mc².",
+      "citation_ids": [
+        "src3"
+      ]
+    },
+    {
+      "text": "He was awarded the Nobel Prize in Physics in 1921 for his explanation of the photoelectric effect.",
+      "citation_ids": [
+        "src1"
+      ]
+    }
+  ],
+  "weather_summary": {
+    "text": "Currently in Ulm, Germany, the temperature is 5.2°C with windspeed of 15.9 km/h and weather code 3.",
+    "citation_ids": [
+      "src2"
+    ]
+  },
+  "sightseeing": [
+    {
+      "text": "Top Attractions in Ulm include the Ulmer Münster, Fishermen's Quarter, and The Leaning House.",
+      "citation_ids": [
+        "src4"
+      ]
+    },
+    {
+      "text": "Ulm Minster, Metzgerturm Tower, and the Museum of Bread Culture are notable sights in Ulm.",
+      "citation_ids": [
+        "src5"
+      ]
+    },
+    {
+      "text": "Top things to do in Ulm include visiting the Ulm Minster, the Rathaus (Ulm Town Hall), and the Wiblingen Abbey.",
+      "citation_ids": [
+        "src6"
+      ]
+    },
+    {
+      "text": "Popular places to visit in Ulm include Ulm Cathedral, Wiblingen Abbey, and the Blautal Center.",
+      "citation_ids": [
+        "src7"
+      ]
+    },
+    {
+      "text": "Hidden attractions in Ulm include the Ulm Minster (Ulmer Münster) and the Einstein Fountain.",
+      "citation_ids": [
+        "src8"
+      ]
+    }
+  ],
+  "citations": {
+    "src1": {
+      "id": "src1",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "description": null
+    },
+    "src2": {
+      "id": "src2",
+      "url": "https://api.open-meteo.com/v1/forecast?latitude=48.39841&longitude=9.99155&current_weather=true",
+      "description": null
+    },
+    "src3": {
+      "id": "src3",
+      "url": "https://www.britannica.com/biography/Albert-Einstein",
+      "description": null
+    },
+    "src4": {
+      "id": "src4",
+      "url": "https://www.tripadvisor.com/Attractions-g187292-Activities-Ulm_Baden_Wurttemberg.html",
+      "description": null
+    },
+    "src5": {
+      "id": "src5",
+      "url": "https://theculturetrip.com/europe/germany/ulm/articles/the-top-10-things-to-see-and-do-in-ulm-germany",
+      "description": null
+    },
+    "src6": {
+      "id": "src6",
+      "url": "https://harmonizingthechaos.com/things-to-do-in-ulm-germany/?srsltid=AfmBOoq930Gk77InPw1zcglpFF_MzfwY6JK91p6uo2mpCMwE9ZFeIgSk",
+      "description": null
+    },
+    "src7": {
+      "id": "src7",
+      "url": "https://www.expedia.com/Things-To-Do-In-Ulm.d9583.Travel-Guide-Activities",
+      "description": null
+    },
+    "src8": {
+      "id": "src8",
+      "url": "https://www.atlasobscura.com/things-to-do/ulm-germany",
+      "description": null
+    }
+  }
+}

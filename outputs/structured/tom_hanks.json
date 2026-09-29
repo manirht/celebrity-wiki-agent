@@ -1,0 +1,96 @@
+{
+  "name": "Tom Hanks",
+  "domain": "Movies",
+  "birthplace": {
+    "text": "Tom Hanks was born in Concord, California, USA. He spent his childhood in the greater San Francisco Bay Area, where he lived and worked before pursuing his acting career.",
+    "citation_ids": [
+      "src1",
+      "src3"
+    ]
+  },
+  "introduction": {
+    "text": "Thomas Jeffrey Hanks, known as Tom Hanks, is an American actor and filmmaker. He was born on July 9, 1956, and has become one of the most celebrated and recognizable actors in the world. Hanks is known for his versatile acting, winning numerous awards, including two Academy Awards.",
+    "citation_ids": [
+      "src1",
+      "src2"
+    ]
+  },
+  "achievements": [
+    {
+      "text": "Tom Hanks has won two Academy Awards for Best Actor, for his roles in 'Philadelphia' (1993) and 'Forrest Gump' (1994).",
+      "citation_ids": [
+        "src5"
+      ]
+    },
+    {
+      "text": "He has also received numerous other accolades, including Golden Globe Awards, Screen Actors Guild Awards, and Emmy Awards.",
+      "citation_ids": [
+        "src2"
+      ]
+    },
+    {
+      "text": "Hanks is known for his roles in iconic films such as 'Cast Away', 'The Green Mile', and 'Apollo 13'.",
+      "citation_ids": [
+        "src5"
+      ]
+    }
+  ],
+  "weather_summary": {
+    "text": "Weather data could not be retrieved as no city was provided.",
+    "citation_ids": [
+      "src4"
+    ]
+  },
+  "sightseeing": [
+    {
+      "text": "Tom Hanks' childhood in the Bay Area: Explore where he lived and worked in the San Francisco Bay Area, including his time in Oakland and Concord.",
+      "citation_ids": [
+        "src1"
+      ]
+    },
+    {
+      "text": "Tom Hanks' journey from a turbulent childhood in Concord, California, to the pinnacle of Hollywood fame is detailed in this Facebook post.",
+      "citation_ids": [
+        "src6"
+      ]
+    },
+    {
+      "text": "The Kennedy Center provides an overview of Tom Hanks' early life and career, including his education and junior college years.",
+      "citation_ids": [
+        "src3"
+      ]
+    }
+  ],
+  "citations": {
+    "src1": {
+      "id": "src1",
+      "url": "https://www.sfgate.com/living/article/Tom-Hanks-childhood-Bay-Area-Oakland-Skyline-High-12417020.php",
+      "description": null
+    },
+    "src2": {
+      "id": "src2",
+      "url": "https://en.wikipedia.org/wiki/Tom_Hanks",
+      "description": null
+    },
+    "src3": {
+      "id": "src3",
+      "url": "https://www.kennedy-center.org/artists/h/ha-hn/tom-hanks/",
+      "description": null
+    },
+    "src4": {
+      "id": "src4",
+      "url": "https://api.weatherapi.com/v1/current.json",
+      "description": null
+    },
+    "src5": {
+      "id": "src5",
+      "url": "https://www.imdb.com/name/nm0000158/bio/",
+      "description": null
+    },
+    "src6": {
+      "id": "src6",
+      "url": "https://www.facebook.com/HistorcHaven/posts/tom-hanks-journey-from-a-turbulent-childhood-in-concord-california-to-the-pinnac/122261262422139406/",
+      "description": null
+    }
+  }
+}

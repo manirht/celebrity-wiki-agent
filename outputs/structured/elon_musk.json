@@ -1,0 +1,100 @@
+{
+  "name": "Elon Musk",
+  "domain": "Business",
+  "birthplace": {
+    "text": "Elon Musk was born in Pretoria, South Africa.",
+    "citation_ids": [
+      "src1"
+    ]
+  },
+  "introduction": {
+    "text": "Elon Musk was born on June 28, 1971, in Pretoria, South Africa. His journey to becoming one of the world’s most recognized entrepreneurs is marked by resilience, innovation, and leadership.",
+    "citation_ids": [
+      "src1"
+    ]
+  },
+  "achievements": [
+    {
+      "text": "Elon Musk is known for his ventures with Tesla, SpaceX, and Twitter.",
+      "citation_ids": [
+        "src1"
+      ]
+    },
+    {
+      "text": "He overcame personal, professional, and financial obstacles in his early years, which shaped his leadership approach.",
+      "citation_ids": [
+        "src1"
+      ]
+    }
+  ],
+  "weather_summary": {
+    "text": "Currently in Pretoria, South Africa, the temperature is 31.7°C with windspeed of 10.6 km/h and clear skies.",
+    "citation_ids": [
+      "src2"
+    ]
+  },
+  "sightseeing": [
+    {
+      "text": "Discover the best attractions in Pretoria including Freedom Park, Voortrekker Monument, and Rietvlei Nature Reserve.",
+      "citation_ids": [
+        "src3"
+      ]
+    },
+    {
+      "text": "Top Attractions in Pretoria include the Voortrekker Monument, Ann van Dyk Cheetah Centre, Magaliesberg, Groenkloof Nature Reserve, Pretoria Union Buildings, and Pretoria National Botanical Garden.",
+      "citation_ids": [
+        "src4",
+        "src5"
+      ]
+    },
+    {
+      "text": "Pretoria is known for its jacaranda trees and nature reserves, as well as cultural attractions like the Voortrekker Monument and the Kruger House Museum. The city also offers monuments, museums downtown, and hiking in the nearby Groenkloof Nature Reserve.",
+      "citation_ids": [
+        "src6"
+      ]
+    },
+    {
+      "text": "Pretoria's architectural highlights include the Union Buildings, the National Heritage Site, the Voortrekker Monument, and Mahlamba Ndlopfu – the President's residence.",
+      "citation_ids": [
+        "src7"
+      ]
+    }
+  ],
+  "citations": {
+    "src1": {
+      "id": "src1",
+      "url": "https://www.linkedin.com/pulse/elon-musk-biography-life-story-serial-entrepreneur-wilson-luna-szszf",
+      "description": null
+    },
+    "src2": {
+      "id": "src2",
+      "url": "https://api.open-meteo.com/v1/forecast?latitude=-25.74486&longitude=28.18783&current_weather=true",
+      "description": null
+    },
+    "src3": {
+      "id": "src3",
+      "url": "https://www.lonelyplanet.com/south-africa/gauteng/pretoria/attractions",
+      "description": null
+    },
+    "src4": {
+      "id": "src4",
+      "url": "https://www.getyourguide.com/pretoria-l1586/",
+      "description": null
+    },
+    "src5": {
+      "id": "src5",
+      "url": "https://www.tripadvisor.com/Attractions-g312583-Activities-Pretoria_Gauteng.html",
+      "description": null
+    },
+    "src6": {
+      "id": "src6",
+      "url": "https://www.viator.com/Pretoria/d22819",
+      "description": null
+    },
+    "src7": {
+      "id": "src7",
+      "url": "https://southafrica.net/na/en/travel/article/entertainment-attractions-and-pretoria-s-activities",
+      "description": null
+    }
+  }
+}

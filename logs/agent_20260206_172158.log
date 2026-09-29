@@ -1,0 +1,117 @@
+2026-02-06 17:21:58 | INFO     | celebrity_agent | Logging initialized. Log file: /Users/chennakesavulam/Documents/AI-7Day/Day-3/logs/agent_20260206_172158.log
+2026-02-06 17:21:58 | INFO     | celebrity_agent.main | Loaded configuration for model: qwen/qwen3-32b
+2026-02-06 17:21:58 | INFO     | celebrity_agent.main | Found 5 people in CSV
+2026-02-06 17:21:58 | INFO     | celebrity_agent.main | [1/5] Processing P. V. Sindhu (Sport)
+2026-02-06 17:21:58 | INFO     | celebrity_agent.graph | === Enriching: P. V. Sindhu (Sport) ===
+2026-02-06 17:21:58 | INFO     | celebrity_agent.graph | Searching web for: P. V. Sindhu biography Sport
+2026-02-06 17:21:59 | DEBUG    | celebrity_agent.graph | Got 5 search results
+2026-02-06 17:21:59 | DEBUG    | celebrity_agent.graph | Fetching page: https://londonspeakerbureau.com/speaker-profile/p-v-sindhu/
+2026-02-06 17:22:01 | WARNING  | celebrity_agent.graph | Page fetch error for https://londonspeakerbureau.com/speaker-profile/p-v-sindhu/: Error fetching page: Client error '403 Forbidden' for url 'https://londonspeakerbureau.com/speaker-profile/p-v-sindhu/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:22:01 | DEBUG    | celebrity_agent.graph | Fetching page: https://sportsmatik.com/sports-stars/p-v-sindhu-1788
+2026-02-06 17:22:03 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.olympics.com/en/athletes/v-sindhu-pusarla
+2026-02-06 17:22:33 | WARNING  | celebrity_agent.graph | Page fetch error for https://www.olympics.com/en/athletes/v-sindhu-pusarla: Error fetching page: 
+2026-02-06 17:22:33 | INFO     | celebrity_agent.graph | Collected 1 source pages
+2026-02-06 17:22:33 | INFO     | celebrity_agent.graph | LLM call: Extracting facts for P. V. Sindhu
+2026-02-06 17:22:34 | DEBUG    | celebrity_agent.graph | LLM raw response length: 140 chars
+2026-02-06 17:22:34 | INFO     | celebrity_agent.graph | Extracted facts - birth_city: , birth_country: 
+2026-02-06 17:22:34 | INFO     | celebrity_agent.graph | Fetching weather for: , 
+2026-02-06 17:22:34 | WARNING  | celebrity_agent.graph | Weather fetch failed: No city provided
+2026-02-06 17:22:36 | INFO     | celebrity_agent.graph | Writing outputs for: P. V. Sindhu
+2026-02-06 17:22:37 | DEBUG    | celebrity_agent.graph | Wrote JSON: outputs/structured/p_v_sindhu.json
+2026-02-06 17:22:38 | DEBUG    | celebrity_agent.graph | Wrote Markdown: outputs/reports/p_v_sindhu.md
+2026-02-06 17:22:38 | INFO     | celebrity_agent.graph | Outputs written: outputs/structured/p_v_sindhu.json, outputs/reports/p_v_sindhu.md
+2026-02-06 17:22:38 | INFO     | celebrity_agent.main | [1/5] Completed P. V. Sindhu
+2026-02-06 17:22:38 | INFO     | celebrity_agent.main | [2/5] Processing Leonardo DiCaprio (Movies)
+2026-02-06 17:22:38 | INFO     | celebrity_agent.graph | === Enriching: Leonardo DiCaprio (Movies) ===
+2026-02-06 17:22:38 | INFO     | celebrity_agent.graph | Searching web for: Leonardo DiCaprio biography Movies
+2026-02-06 17:22:39 | DEBUG    | celebrity_agent.graph | Got 5 search results
+2026-02-06 17:22:39 | DEBUG    | celebrity_agent.graph | Fetching page: https://tv.apple.com/us/person/leonardo-dicaprio/umc.cpc.5exhne0or2lo8sz8ka6rwg69l
+2026-02-06 17:22:39 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.biography.com/actors/leonardo-dicaprio
+2026-02-06 17:22:40 | WARNING  | celebrity_agent.graph | Page fetch error for https://www.biography.com/actors/leonardo-dicaprio: Error fetching page: Client error '403 Forbidden' for url 'https://www.biography.com/actors/leonardo-dicaprio'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:22:40 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.the-movie-times.com/thrsdir/actors/actorProfiles.mv?ldicaprio
+2026-02-06 17:22:41 | INFO     | celebrity_agent.graph | Collected 2 source pages
+2026-02-06 17:22:41 | INFO     | celebrity_agent.graph | LLM call: Extracting facts for Leonardo DiCaprio
+2026-02-06 17:22:42 | DEBUG    | celebrity_agent.graph | LLM raw response length: 1711 chars
+2026-02-06 17:22:42 | INFO     | celebrity_agent.graph | Extracted facts - birth_city: Los Angeles, birth_country: United States
+2026-02-06 17:22:42 | INFO     | celebrity_agent.graph | Fetching weather for: Los Angeles, United States
+2026-02-06 17:22:43 | INFO     | celebrity_agent.graph | Weather: 16.4°C
+2026-02-06 17:22:46 | INFO     | celebrity_agent.graph | Writing outputs for: Leonardo DiCaprio
+2026-02-06 17:22:47 | DEBUG    | celebrity_agent.graph | Wrote JSON: outputs/structured/leonardo_dicaprio.json
+2026-02-06 17:22:47 | DEBUG    | celebrity_agent.graph | Wrote Markdown: outputs/reports/leonardo_dicaprio.md
+2026-02-06 17:22:47 | INFO     | celebrity_agent.graph | Outputs written: outputs/structured/leonardo_dicaprio.json, outputs/reports/leonardo_dicaprio.md
+2026-02-06 17:22:47 | INFO     | celebrity_agent.main | [2/5] Completed Leonardo DiCaprio
+2026-02-06 17:22:47 | INFO     | celebrity_agent.main | [3/5] Processing Dr. A. P. J. Abdul Kalam (Academia/Science)
+2026-02-06 17:22:47 | INFO     | celebrity_agent.graph | === Enriching: Dr. A. P. J. Abdul Kalam (Academia/Science) ===
+2026-02-06 17:22:47 | INFO     | celebrity_agent.graph | Searching web for: Dr. A. P. J. Abdul Kalam biography Academia/Science
+2026-02-06 17:22:48 | DEBUG    | celebrity_agent.graph | Got 5 search results
+2026-02-06 17:22:48 | DEBUG    | celebrity_agent.graph | Fetching page: https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam
+2026-02-06 17:22:49 | WARNING  | celebrity_agent.graph | Page fetch error for https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam: Error fetching page: Client error '403 Forbidden' for url 'https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:22:49 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.britannica.com/biography/A-P-J-Abdul-Kalam
+2026-02-06 17:22:49 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.iiitd.ac.in/sites/default/files/docs/convocation/2015/Dr._Kalam-profile_v12%20(1).pdf
+2026-02-06 17:22:50 | INFO     | celebrity_agent.graph | Collected 2 source pages
+2026-02-06 17:22:50 | INFO     | celebrity_agent.graph | LLM call: Extracting facts for Dr. A. P. J. Abdul Kalam
+2026-02-06 17:22:54 | DEBUG    | celebrity_agent.graph | LLM raw response length: 2692 chars
+2026-02-06 17:22:54 | ERROR    | celebrity_agent.graph | Failed to parse LLM response as JSON: Invalid control character at: line 17 column 267 (char 2209)
+2026-02-06 17:22:54 | DEBUG    | celebrity_agent.graph | Response was: {
+  "name": "Dr. A. P. J. Abdul Kalam",
+  "domain": "Academia/Science",
+  "sources": [
+    {
+      "url": "https://www.britannica.com/biography/A-P-J-Abdul-Kalam",
+      "title": "A.P.J. Abdul Kalam | Biography, History, Career, Books, Awards, & Facts | Britannica",
+      "excerpts": [
+        "A.P.J. Abdul Kalam | Biography, History, Career, Books, Awards, & Facts | Britannica",
+        "Search Britannica Click here to search SUBSCRIBE SUBSCRIBE Login https://premium.britannica.com/premium-memb
+2026-02-06 17:22:54 | INFO     | celebrity_agent.graph | Fetching weather for: , 
+2026-02-06 17:22:54 | WARNING  | celebrity_agent.graph | Weather fetch failed: No city provided
+2026-02-06 17:23:10 | INFO     | celebrity_agent.graph | Writing outputs for: Dr. A. P. J. Abdul Kalam
+2026-02-06 17:23:11 | DEBUG    | celebrity_agent.graph | Wrote JSON: outputs/structured/dr_a_p_j_abdul_kalam.json
+2026-02-06 17:23:11 | DEBUG    | celebrity_agent.graph | Wrote Markdown: outputs/reports/dr_a_p_j_abdul_kalam.md
+2026-02-06 17:23:11 | INFO     | celebrity_agent.graph | Outputs written: outputs/structured/dr_a_p_j_abdul_kalam.json, outputs/reports/dr_a_p_j_abdul_kalam.md
+2026-02-06 17:23:11 | INFO     | celebrity_agent.main | [3/5] Completed Dr. A. P. J. Abdul Kalam
+2026-02-06 17:23:11 | INFO     | celebrity_agent.main | [4/5] Processing Ratan Tata (Business)
+2026-02-06 17:23:11 | INFO     | celebrity_agent.graph | === Enriching: Ratan Tata (Business) ===
+2026-02-06 17:23:11 | INFO     | celebrity_agent.graph | Searching web for: Ratan Tata biography Business
+2026-02-06 17:23:12 | DEBUG    | celebrity_agent.graph | Got 5 search results
+2026-02-06 17:23:12 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.britannica.com/money/Ratan-Tata
+2026-02-06 17:23:13 | DEBUG    | celebrity_agent.graph | Fetching page: https://agritech.tnau.ac.in/pdf/Ratan%20Tata%20A%20Complete%20Biography_241014_091401.pdf
+2026-02-06 17:23:15 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.hbs.edu/creating-emerging-markets/interviews/Pages/profile.aspx?profile=rntata
+2026-02-06 17:23:15 | WARNING  | celebrity_agent.graph | Page fetch error for https://www.hbs.edu/creating-emerging-markets/interviews/Pages/profile.aspx?profile=rntata: Error fetching page: Client error '403 Forbidden' for url 'https://www.hbs.edu/creating-emerging-markets/interviews/Pages/profile.aspx?profile=rntata'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:23:15 | INFO     | celebrity_agent.graph | Collected 2 source pages
+2026-02-06 17:23:15 | INFO     | celebrity_agent.graph | LLM call: Extracting facts for Ratan Tata
+2026-02-06 17:23:17 | DEBUG    | celebrity_agent.graph | LLM raw response length: 2119 chars
+2026-02-06 17:23:17 | INFO     | celebrity_agent.graph | Extracted facts - birth_city: , birth_country: 
+2026-02-06 17:23:17 | INFO     | celebrity_agent.graph | Fetching weather for: , 
+2026-02-06 17:23:17 | WARNING  | celebrity_agent.graph | Weather fetch failed: No city provided
+2026-02-06 17:23:39 | INFO     | celebrity_agent.graph | Writing outputs for: Ratan Tata
+2026-02-06 17:23:40 | DEBUG    | celebrity_agent.graph | Wrote JSON: outputs/structured/ratan_tata.json
+2026-02-06 17:23:41 | DEBUG    | celebrity_agent.graph | Wrote Markdown: outputs/reports/ratan_tata.md
+2026-02-06 17:23:41 | INFO     | celebrity_agent.graph | Outputs written: outputs/structured/ratan_tata.json, outputs/reports/ratan_tata.md
+2026-02-06 17:23:41 | INFO     | celebrity_agent.main | [4/5] Completed Ratan Tata
+2026-02-06 17:23:41 | INFO     | celebrity_agent.main | [5/5] Processing Arijit Singh (Music)
+2026-02-06 17:23:41 | INFO     | celebrity_agent.graph | === Enriching: Arijit Singh (Music) ===
+2026-02-06 17:23:41 | INFO     | celebrity_agent.graph | Searching web for: Arijit Singh biography Music
+2026-02-06 17:23:42 | DEBUG    | celebrity_agent.graph | Got 5 search results
+2026-02-06 17:23:42 | DEBUG    | celebrity_agent.graph | Fetching page: https://vocal.media/journal/arijit-singh-biography
+2026-02-06 17:23:42 | WARNING  | celebrity_agent.graph | Page fetch error for https://vocal.media/journal/arijit-singh-biography: Error fetching page: Client error '403 Forbidden' for url 'https://vocal.media/journal/arijit-singh-biography'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:23:42 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.quora.com/What-is-the-biography-of-Arijit-Singh-and-the-story-of-becoming-a-singer
+2026-02-06 17:23:43 | WARNING  | celebrity_agent.graph | Page fetch error for https://www.quora.com/What-is-the-biography-of-Arijit-Singh-and-the-story-of-becoming-a-singer: Error fetching page: Client error '403 Forbidden' for url 'https://www.quora.com/What-is-the-biography-of-Arijit-Singh-and-the-story-of-becoming-a-singer'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-02-06 17:23:43 | DEBUG    | celebrity_agent.graph | Fetching page: https://www.linkedin.com/pulse/arijit-singh-net-worth-biography-lifestyle-success-story-mishra-yuzfc
+2026-02-06 17:23:44 | INFO     | celebrity_agent.graph | Collected 1 source pages
+2026-02-06 17:23:44 | INFO     | celebrity_agent.graph | LLM call: Extracting facts for Arijit Singh
+2026-02-06 17:23:47 | DEBUG    | celebrity_agent.graph | LLM raw response length: 1183 chars
+2026-02-06 17:23:47 | INFO     | celebrity_agent.graph | Extracted facts - birth_city: , birth_country: 
+2026-02-06 17:23:47 | INFO     | celebrity_agent.graph | Fetching weather for: , 
+2026-02-06 17:23:47 | WARNING  | celebrity_agent.graph | Weather fetch failed: No city provided
+2026-02-06 17:24:04 | INFO     | celebrity_agent.graph | Writing outputs for: Arijit Singh
+2026-02-06 17:24:05 | DEBUG    | celebrity_agent.graph | Wrote JSON: outputs/structured/arijit_singh.json
+2026-02-06 17:24:06 | DEBUG    | celebrity_agent.graph | Wrote Markdown: outputs/reports/arijit_singh.md
+2026-02-06 17:24:06 | INFO     | celebrity_agent.graph | Outputs written: outputs/structured/arijit_singh.json, outputs/reports/arijit_singh.md
+2026-02-06 17:24:06 | INFO     | celebrity_agent.main | [5/5] Completed Arijit Singh
+2026-02-06 17:24:06 | INFO     | celebrity_agent.main | Pipeline completed
